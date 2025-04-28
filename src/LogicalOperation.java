@@ -7,51 +7,51 @@ public class LogicalOperation {
         /*
          *  + : 加法
          */
-        // int a = 5;
-        // int b = 12;
-        // int sum = a + b;
-        // System.out.println(sum);
+        int a = 5;
+        int b = 12;
+        int sum = a + b;
+        System.out.println(sum);
 
         /*
          *  - : 減法
          */
-        // int a = 5;
-        // int b = 12;
+        int c = 5;
+        int d = 12;
 
-        // int diff1 = b - a;
-        // System.out.println(diff1);
+        int diff1 = c - d;
+        System.out.println(diff1);
 
-        // int diff2 = a - b;
-        // System.out.println(diff2);
+        int diff2 = d - c;
+        System.out.println(diff2);
 
         /*
          *  * : 乘法
          */
-        // int a = 5;
-        // int b = 12;
-        // int product = a * b;
-        // System.out.println(product);
+        int e = 5;
+        int f = 12;
+        int product = e * f;
+        System.out.println(product);
 
         /*
          *  / : 除法
          */
-        // int a = 5;
-        // int b = 12;
+        int g = 5;
+        int h = 12;
 
-        // double quotiend1  = a / b;
-        // System.out.println(quotiend1);
+        double quotiend1  = g / h;
+        System.out.println(quotiend1);
 
-        // double quotiend2  = b / a;
-        // System.out.println(quotiend2);
+        double quotiend2  = h / g;
+        System.out.println(quotiend2);
 
         /*
          *  % : 餘數
          */
-        // int a = 15;
-        // int b = 4;
+        int i = 15;
+        int j = 4;
 
-        // int remainder = a % b;
-        // System.out.println(remainder);
+        int remainder = i % j;
+        System.out.println(remainder);
 
         
         /*

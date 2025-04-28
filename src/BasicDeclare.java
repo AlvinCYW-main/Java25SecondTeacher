@@ -5,7 +5,7 @@ public class BasicDeclare {
          *
          * byte:    整數, 範圍: -128 ~ 127
          *
-         * long:    整數, 範圍: -9,223,372,036,854,775,808 ~ 9,223,372,036,854,775,807
+         * long:    整數, 範圍: -9,223,372,036,854,775,808 ~ 9,223,372,036,854,775,807,須加上L
          *
          * float:   32位元浮點數, 需要加上F
          *
@@ -17,23 +17,26 @@ public class BasicDeclare {
          *
          * boolean: 布林, true/false
          */
-        // int age = 25;
-        // System.out.println(age);
+        int age = 21;
+        System.out.println(age);
 
-        // float weight1 = 49.4F;
-        // System.out.println(weight1);
+        long year = 21474836472L;
+        System.out.println(year);
 
-        // double weight2 = 49.49;
-        // System.out.println(weight2);
+        float weight1 = 49.4F;
+        System.out.println(weight1);
+
+        double weight2 = 49.49;
+        System.out.println(weight2);
         
-        // char c1 = 'Y';
-        // System.out.println(c1);
+        char c1 = 'Y';
+        System.out.println(c1);
 
-        // String name = "Edward";
-        // System.out.println(name);
+        String name = "Edward";
+        System.out.println(name);
 
-        // boolean isStudent = true; // false
-        // System.out.println(isStudent);
+        boolean isStudent = true; // false
+        System.out.println(isStudent);
 
 
         /*
@@ -41,12 +44,14 @@ public class BasicDeclare {
          * 陣列的長度是固定的, 不能改變
          * 陣列的長度是從0開始計算
          */
-        // int[] bingo = {7, 22, 89, 55, 33, 99};
-        // System.out.println(bingo[5]);
-        // System.out.println(bingo[2]);
+        int[] bingo = {7, 22, 89, 55, 33, 99};
+        System.out.println(bingo[5]);
+        System.out.println(bingo[2]);
 
-        // String[] students = {"A1", "A2", "A3"};
-        // System.out.println(students[1]);
+        String[] students = {"A1", "A2", "A3"};
+        System.out.println(students[1]);
 
+        float[] weights = { 65.2F, 12.4F };
+        System.out.println(weights[0]);
     }
 }
