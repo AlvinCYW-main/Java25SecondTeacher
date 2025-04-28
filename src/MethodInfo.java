@@ -11,6 +11,8 @@ public class MethodInfo {
         String result = sayHello3("Jerry");
         System.out.println(result);
         
+        String result2 = checkScore(88);
+        System.err.println(result2);
     }
 
     /*
@@ -56,4 +58,15 @@ public class MethodInfo {
         return "Hi " + name;
     }
 
+    public static String checkScore(int score) {
+        if (score>=90){
+            return "Great!";
+        } else if(score >= 80){
+            return "Good!";
+        } else if (score>=60){
+            return "Nice!";
+        } else {
+            return "ok";
+        }
+    }
 }
