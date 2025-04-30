@@ -1,3 +1,7 @@
+package Lesson1;
+
+import Basic.Person;
+
 public class DemoClass {
     public static void main(String[] args) {
         //int number = 10;
@@ -11,6 +15,13 @@ public class DemoClass {
 
         new Car("003", "yellow").showCarInfo();
 
+        // System.out.println("Color: " + Cloth.color);
+        // System.out.println("Size: " + Cloth.size);
+        // System.out.println("Logo: " + Cloth.logo);
+
+        Cloth c1 = new Cloth("Brown", "S", "AA");
+        c1.showInfo();
+
         Person No1 = new Person("Albert", 33);
         No1.showName();
         No1.showAge();
@@ -21,12 +32,6 @@ public class DemoClass {
         System.out.println("School: " + Person.schoolName);
 
 
-        // System.out.println("Color: " + Cloth.color);
-        // System.out.println("Size: " + Cloth.size);
-        // System.out.println("Logo: " + Cloth.logo);
-
-        Cloth c1 = new Cloth("Brown", "S", "AA");
-        c1.showInfo();
     }
 
 

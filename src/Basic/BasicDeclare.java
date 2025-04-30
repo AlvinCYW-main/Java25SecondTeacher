@@ -1,3 +1,4 @@
+package Basic;
 public class BasicDeclare {
     public static void main(String[] args) throws Exception {
         /* 基本型別介紹

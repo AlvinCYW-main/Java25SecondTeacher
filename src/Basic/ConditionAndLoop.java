@@ -1,3 +1,4 @@
+package Basic;
 public class ConditionAndLoop {
     public static void main(String[] args) throws Exception {
         /*

@@ -1,3 +1,4 @@
+package Lesson1;
 public class Car {
     //property
     public String color;
