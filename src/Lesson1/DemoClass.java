@@ -31,6 +31,18 @@ public class DemoClass {
         No2.showAge();
         System.out.println("School: " + Person.schoolName);
 
+        Student s1 = new Student("Teacher1");
+        s1.setScore1(88, "Teacher1");
+        s1.setScore2(108, "Teacher1");
+        s1.setScore2(65, "Teacher2");
+        s1.setScore2(65, "Teacher1");
+
+        int score1 = s1.getScore1("Teacher1");
+        System.out.println(score1);
+        int score2 = s1.getScore2("Teacher1");
+        System.out.println(score2);
+        int score3 = s1.getScore1("Teacher2");
+        System.out.println(score3);
 
     }
 

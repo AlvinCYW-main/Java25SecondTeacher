@@ -3,7 +3,7 @@ package Lesson1.homework.training;
 public class Employee {
     private String name;
     
-    public void Employee(String inputName){
+    public Employee(String inputName){
         this.name = inputName;
     }
 
