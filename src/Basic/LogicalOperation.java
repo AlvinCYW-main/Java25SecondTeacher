@@ -1,4 +1,4 @@
-package basic;
+package Basic;
 public class LogicalOperation {
     public static void main(String[] args) throws Exception {
         /*

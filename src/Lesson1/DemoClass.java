@@ -1,6 +1,6 @@
-package lesson1;
+package Lesson1;
 
-import basic.Person;
+import Basic.Person;
 
 public class DemoClass {
     public static void main(String[] args) {
