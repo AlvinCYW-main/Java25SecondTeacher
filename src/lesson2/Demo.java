@@ -1,5 +1,7 @@
 package lesson2;
 
+import lesson3.*;
+
 public class Demo {
     
     public static void main(String[] args) {
@@ -18,6 +20,16 @@ public class Demo {
         m1.printMessage("aaaa");
         m1.printMessage(2.2, 3.3);
         m1.printMessage(9, 8, "bbb");
+
+
+        Person p1 = new Person("AAA", 88);
+        p1.introduce();
+
+        Student s1 = new Student("BBB", 66, "FFF");
+        s1.introduce();
+
+        ColledgeStudent c2 = new ColledgeStudent("CCC", 33, "RRR", "OOO");
+        c2.introduce();
     }
 
 }
