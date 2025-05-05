@@ -14,7 +14,10 @@ public class Demo {
         c1.meow();
         c1.speak();
 
-        
+        MessagePrinter m1 = new MessagePrinter();
+        m1.printMessage("aaaa");
+        m1.printMessage(2.2, 3.3);
+        m1.printMessage(9, 8, "bbb");
     }
 
 }
